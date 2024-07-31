@@ -4,7 +4,7 @@ body {
     background-color: #121212;
     color: white;
     display: flex;
-    justify-content: flex-start; /* Change from center to flex-start */
+    justify-content: flex-start; 
     align-items: flex-start;
     height: 100vh;
     padding: 20px;
@@ -13,12 +13,12 @@ body {
 
 .container {
     display: flex;
-    width: 100%; /* Adjust width */
-    height: auto; /* Adjust height to auto */
+    width: 100%; 
+    height: auto; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     overflow: hidden;
-    margin-left: 0; /* Ensure no margin is added */
+    margin-left: 0; 
 }
 
 .sidebar {
