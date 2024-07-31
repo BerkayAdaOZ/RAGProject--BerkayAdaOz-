@@ -1,0 +1,6 @@
+flask
+python-dotenv
+PyPDF2
+langchain
+faiss-cpu
+langchain-community
