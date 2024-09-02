@@ -27,7 +27,7 @@ def get_text_chunks(text):
 
 def get_vectorstore(text_chunks):
     embeddings = HuggingFaceHubEmbeddings(
-        huggingfacehub_api_token="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",
+        huggingfacehub_api_token="your_hgApıToken",
         repo_id="sentence-transformers/all-mpnet-base-v2",
         task="feature-extraction"
     )
